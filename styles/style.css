@@ -153,7 +153,7 @@ body {
     align-items: center;
 }
 
-.banner-img div{
+.banner-img{
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position:center;
@@ -170,7 +170,7 @@ body {
 
 .banner-text h1 {
     color: #3A3A3A;
-    font-size: 52px;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 70px;
     font-family: 'Poppins', sans-serif;
