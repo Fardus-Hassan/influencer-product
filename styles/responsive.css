@@ -1,0 +1,56 @@
+@media screen and (max-width:992px) {
+    
+    .nav >ul>li{
+        display: none;
+    }
+
+    .nav > div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: #3A3A3A;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    
+    .logo {
+        font-size: 1.25rem
+    }
+
+    .head1 {
+        margin: 50px 0 70px;
+    }
+    
+
+
+}
+/* 
+@media screen and (max-width:475px) {
+    
+    .logo {
+        font-size: 1.15rem
+    }
+
+    
+
+
+} */
+
+
+
+@media screen and (max-width:380px) {
+
+
+
+    .logo {
+        font-size: 1rem
+    }
+
+    
+
+
+}
