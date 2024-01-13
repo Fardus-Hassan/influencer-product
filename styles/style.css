@@ -22,7 +22,7 @@ li {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 body {
@@ -41,6 +41,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     line-height: normal;
+    margin: 16px 0;
 }
 
 .common-h3 {
@@ -93,6 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .nav>ul {
@@ -102,7 +104,7 @@ body {
     gap: 34px;
 }
 
-.nav ul li a{
+.nav ul li a {
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600;
@@ -110,7 +112,7 @@ body {
     transition: 0.3s;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     color: var(--btn-color);
 }
 
@@ -121,19 +123,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.nav ul li i{
+.nav ul li i {
     font-size: 1.5rem;
 }
 
-.nav > div{
+.nav>div {
     display: none;
 }
 
-.nav ul div{
-    position:relative;
+.nav ul div {
+    position: relative;
 }
 
-.nav ul div span{
+.nav ul div span {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -143,4 +145,49 @@ body {
     position: absolute;
     top: -3px;
     right: -3px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img div{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 50px 0;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-img{
+    width: 40%;
+}
+
+.banner-text h1 {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-hd {
+    border-radius: 41px;
+    background: var(--btn-color);
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding:10px 25px;
+    margin-top: 10px;
+}
+
+.banner-text p{
+    max-width: 505px;
 }

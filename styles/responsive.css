@@ -22,7 +22,7 @@
     }
 
     .head1 {
-        margin: 50px 0 70px;
+        margin: 25px 0 70px;
     }
     
 
@@ -44,13 +44,13 @@
 
 @media screen and (max-width:380px) {
 
-
-
     .logo {
         font-size: 1rem
     }
 
-    
+    .head1 {
+        margin: 20px 0 70px;
+    }
 
 
 }
