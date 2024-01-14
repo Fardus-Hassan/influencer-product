@@ -78,6 +78,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.main-container{
+    max-width: 1110px;
+    width: 77%;
+    margin: 0 auto;
+}
 
 /* heading */
 
@@ -191,3 +196,20 @@ body {
 .banner-text p{
     max-width: 505px;
 }
+
+/* brand */
+
+.brands-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.brands{
+    border: 1px solid #787885;
+    padding: 45px 0;
+    border-left: 0;
+    border-right: 0;
+}
+
