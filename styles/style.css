@@ -87,7 +87,7 @@ body {
 /* heading */
 
 .head1 {
-    margin: 85px 0 70px;
+    margin: 85px 0 50px;
 }
 
 .head-container {
@@ -201,15 +201,23 @@ body {
 
 .brands-img{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     gap: 60px;
+    margin: 0 auto;
 }
 
 .brands{
-    border: 1px solid #787885;
+    margin-bottom: 100px;
+}
+
+.brands-img{
+    border: 1px solid #7878853a;
     padding: 45px 0;
     border-left: 0;
     border-right: 0;
 }
 
+.brands-img img{
+    width: 8%;
+}
