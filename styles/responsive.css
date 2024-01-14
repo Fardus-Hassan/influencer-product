@@ -162,6 +162,10 @@
         padding-top: 0;
     }
 
+    .product-card {
+        grid-template-columns:1fr;
+    }
+
 }
 
 @media screen and (max-width:475px) {
