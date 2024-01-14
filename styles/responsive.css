@@ -18,6 +18,10 @@
        width: 80%;
     }
 
+    .product-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 
@@ -85,8 +89,24 @@
         width: 12%;
     }
 
+    .main-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
 
 }
+
+@media screen and (max-width:640px) {
+    
+    .product-container {
+        padding: 0;
+    }
+
+
+}
+
 @media screen and (max-width:768px) {
     
     .banner-img{

@@ -78,7 +78,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.main-container{
+.main-container {
     max-width: 1110px;
     width: 77%;
     margin: 0 auto;
@@ -152,24 +152,24 @@ body {
     right: -3px;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner-img{
+.banner-img {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     padding: 50px 0;
 }
 
-.banner-text{
+.banner-text {
     width: 50%;
 }
 
-.banner-img{
+.banner-img {
     width: 40%;
 }
 
@@ -189,35 +189,105 @@ body {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     border: none;
-    padding:10px 25px;
+    padding: 10px 25px;
     margin-top: 10px;
 }
 
-.banner-text p{
+.banner-text p {
     max-width: 505px;
 }
 
 /* brand */
 
-.brands-img{
+.brands-img {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     margin: 0 auto;
 }
 
-.brands{
+.brands {
     margin-bottom: 100px;
 }
 
-.brands-img{
+.brands-img {
     border: 1px solid #7878853a;
     padding: 45px 0;
     border-left: 0;
     border-right: 0;
 }
 
-.brands-img img{
+.brands-img img {
     width: 8%;
+}
+
+/* product */
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-text h3 {
+    color: #3A3A3A;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.product-container {
+    padding: 0 50px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card>div {
+    margin: 10px 0 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.card>div i {
+    color: #FB8200;
+    width: 5px;
+    height: 5px;
+}
+
+.card>div>span {
+    margin-left: 5px;
+}
+
+.card>div {
+    display: flex;
+    gap: 15px;
+}
+
+.product-container>div>button {
+    color: var(--btn-color);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    background: transparent;
+}
+
+.product-container .btn-see-more{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
 }
